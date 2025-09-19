@@ -4,7 +4,7 @@
 int main(int argc, char *argv[])
 {
 
-  system("java -jar /home/smassely/fabricmok/fabricbro.jar -Xmx 4G nogui");
+  system("java -jar /home/smassely/fabricmok/fabricbro.jar --Xmx 4G nogui");
   system("git add .");
   system("git commit -a -m save");
   system("git push origin");

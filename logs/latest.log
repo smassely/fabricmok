@@ -1,17 +1,15 @@
-[17:10:44] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.17.2
-[17:10:45] [main/INFO]: Loading 4 mods:
+[17:11:13] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.17.2
+[17:11:13] [main/INFO]: Loading 4 mods:
 	- fabricloader 0.17.2
 	   \-- mixinextras 0.5.0
 	- java 25
 	- minecraft 1.20.1
-[17:10:45] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/smassely/fabricmok/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[17:10:45] [main/ERROR]: Failed to start the minecraft server
-joptsimple.UnrecognizedOptionException: X is not a recognized option
+[17:11:13] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/smassely/fabricmok/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[17:11:13] [main/ERROR]: Failed to start the minecraft server
+joptsimple.UnrecognizedOptionException: Xmx is not a recognized option
 	at joptsimple.OptionException.unrecognizedOption(OptionException.java:108) ~[jopt-simple-5.0.4.jar:?]
-	at joptsimple.OptionParser.validateOptionCharacters(OptionParser.java:633) ~[jopt-simple-5.0.4.jar:?]
-	at joptsimple.OptionParser.handleShortOptionCluster(OptionParser.java:528) ~[jopt-simple-5.0.4.jar:?]
-	at joptsimple.OptionParser.handleShortOptionToken(OptionParser.java:523) ~[jopt-simple-5.0.4.jar:?]
-	at joptsimple.OptionParserState$2.handleArgument(OptionParserState.java:59) ~[jopt-simple-5.0.4.jar:?]
+	at joptsimple.OptionParser.handleLongOptionToken(OptionParser.java:510) ~[jopt-simple-5.0.4.jar:?]
+	at joptsimple.OptionParserState$2.handleArgument(OptionParserState.java:56) ~[jopt-simple-5.0.4.jar:?]
 	at joptsimple.OptionParser.parse(OptionParser.java:396) ~[jopt-simple-5.0.4.jar:?]
 	at net.minecraft.server.Main.main(Main.java:90) ~[server-intermediary.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:506) ~[fabric-loader-0.17.2.jar:?]
